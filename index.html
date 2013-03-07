@@ -6,98 +6,385 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>ZYGOSIS | Digital Design Agency</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
+    
+	<script>
+	$(document).ready(function() {
+		
+		$('#navbar').scrollspy();
+		$("a.anchor-link").anchorAnimate();
+	
+	}); //end ready
+	</script>
+	
+	</head>
+    <body data-spy="scroll" data-target=".navbar">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#">Project name</a>
                     <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
+                        <ul class="nav center">
+                            <li class="active"><a class="anchor-link" href="#work">Work</a></li>
+                            <li><a class="anchor-link" href="#whoweare">Who We Are</a></li>
+							<li><a class="graphic">ZYGOSIS</a></li>
+                            <li><a class="anchor-link" href="#whatwedo">What We Do</a></li>
+							<li><a class="anchor-link" href="#contact">Contact</a></li>
                         </ul>
-                        <form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                            <input class="span2" type="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form>
                     </div><!--/.nav-collapse -->
-                </div>
-            </div>
-        </div>
+                </div><!-- /.container-->
+            </div><!-- /.navbar-inner-->
+        </div><!-- /.navbar-->
 
-        <div class="container">
+        <div class="container" id="top">
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+                <h1>Craig's Playground</h1>
             </div>
+			
+<!-- [WHO WE ARE] --------------------------------------------------------------- -->
+			<div class="row-fluid">
+				<div class="span12 section whoweare" id="whoweare">
+				
+				<p>Who We Are Blurb</p>
+				
+				<div> <!-- .span12 section -->
+			</div> <!-- /#whoweare -->
 
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-            </div>
+			<div class="row-fluid" >
+				<div class="span12 section whatwedo" id="whatwedo">
+					<div class="span12">
+						<h2>What We Do</h2>
+						
+						
+					</div>
+					<div class="row-fluid">
+					<div class="span12 work-categories">
+						<ul>
+							<li class="work-category">
+								<ul>
+									<li><div id="work-icon-html5" class="work-icon"></div></li>
+									<li><div id="work-icon-css3" class="work-icon"></div></li>
+									<li><div id="work-icon-jquery" class="work-icon"></div></li>
+								</ul>
+								<h3>Modern<br>Web Design</h3>
+								<p>Using the latest HTML5, CSS3 and jQuery techniques alongside a spread of graphics software ensures that your sites are looking as good as you expect them to.</p>
+							</li>
+							<li class="work-category">
+								<ul>
+									<li><div id="work-icon-wordpress" class="work-icon"></div></li>
+									<li><div id="work-icon-drupal" class="work-icon"></div></li>
+									<li><div id="work-icon-joomla" class="work-icon"></div></li>
+								</ul>
+								<h3>Content Management</h3>
+								<p>Implementing content management systems can empower you to easily manage the composition of your pages.  You're the expert and it's your website, after all.</p>
+							</li>
+							<li class="work-category">
+								<ul>
+									<li><div id="work-icon-javascript" class="work-icon"></div></li>
+									<li><div id="work-icon-php" class="work-icon"></div></li>
+									<li><div id="work-icon-mysql" class="work-icon"></div></li>
+								</ul>
+								<h3>Bespoke Functionality</h3>
+								<p>User logins, shopping carts, data capture, comment threads, site analytics...  Our experience with Javascript, PHP and mySQL allows our solution to work for you.</p>
+							</li>
+							<li class="work-category">
+								<ul>
+									<li><div id="work-icon-facebook" class="work-icon"></div></li>
+									<li><div id="work-icon-twitter" class="work-icon"></div></li>
+									<li><div id="work-icon-linkedin" class="work-icon"></div></li>
+								</ul>
+								<h3>Social Media Integration</h3>
+								<p>Spreading your message is important, so we can help set-up social media profiles, integrate them with existing web platforms and tailor unified branding throughout.</p>
+							</li>
+							<li class="work-category">
+								<ul>
+									<li><div id="work-icon-desktop" class="work-icon"></div></li>
+									<li><div id="work-icon-tablet" class="work-icon"></div></li>
+									<li><div id="work-icon-mobile" class="work-icon"></div></li>
+								</ul>
+								<h3>Responsive<br>Web Design</h3>
+								<p>Recognising the ever increasing usage of mobile and tablet platforms allows us to ensure that our solutions will look and function great on any platform.</p>
+							</li>
+						</ul>
+					</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 
-            <hr>
+				</div><!-- /.whatwedo-->
+			</div><!-- /.row-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------[OLD CODE] ------------------------------ -->
+
+
+
+<!--            <!-- Columns -->
+<!--            <div class="row-fluid" id="intro">
+<!--                <div class="span12 section intro">
+<!--					<div class="row-fluid">
+<!--						<div class="span8">
+<!--							<h2>Executive Recruitment for Renewable Energy</h2>
+<!--							<p class="intro-text">EnergeiaWorks is an executive staffing firm specializing in the North American renewable energy sector.</p>
+<!--							<p>Our corporate clients include software developers, service providers, consulting firms,<br> government organizations, venture capital firms, and hardware manufacturers<br> ranging from fresh new start-ups to Fortune 500 corporations.</p>
+<!--						</div>
+<!--					<div><!-- /.row-->
+<!--						<div class="span4">
+<!--							<p>content</p>
+<!--						</div>
+<!--					<div class="row-fluid">
+<!--						<div class="span12 client-logos">
+<!--							<div class="span2 client-logo client-logo-1">Logo</div>
+<!--							<div class="span2 client-logo client-logo-2">Logo</div>
+<!--							<div class="span2 client-logo client-logo-3">Logo</div>
+<!--							<div class="span2 client-logo client-logo-4">Logo</div>
+<!--							<div class="span2 client-logo client-logo-5">Logo</div>
+<!--							<div class="span2 client-logo client-logo-6">Logo</div>
+<!--						</div><!-- /.client-logos-->
+<!--					</div><!-- /.row-->
+<!--					<div class="row-fluid">
+<!--						<div class="span12">
+<!--							<p>We serve an international<br> client base with the flexibility of contingency or<br> retained search for full-time, part-time and billable consultant hires.</p>
+<!--						</div>
+<!--					</div><!-- /.row-->
+<!--                </div><!-- /.intro-->                
+<!--            </div><!-- /.row-->
+			
+			
+
+			<div class="row-fluid">
+				<div class="span12 section employers" id="employers">
+					<div class="span12">
+						<h2>EMPLOYERS</h2>
+						<p class="intro-text">Expertise Matters</p>
+						<p>It’s no secret that renewable energy is one of the most important and fastest<br> growing industries in our economy. Since the knowledge and expertise required to work in<br> renewable energy is so specialized, many firms struggle to find the top talent to fill key positions.</p>
+						<p>We exclusively on staffing and executive recruitment for the renewable energy market.<br> Our unique focus on the technologies, industry trends, and market players that<br> matter allows us to find you the best talent in the industry.</p>
+					</div>
+
+				</div><!-- /.employers-->
+			</div><!-- /.row-->
+            
+			<div class="row-fluid">
+				<div class="span12 section job-seekers" id="job-seekers">
+					<div class="span12">
+						<h2>JOB SEEKERS</h2>
+						<p class="intro-text">On Your Side</p>
+						<p>If you are a professional with experience in renewable energy, or looking to break into this sector,<br> we can help. We work with a wide range of hiring companies who need experienced<br> veterans as well as up-and-coming talent with skills from other industries.<br> In some cases, no renewable energy background is required.</p>
+						<p>Since our clients pay for the search there is no cost or risk to you,<br> so email us your resume today for a complimentary assessment.</p>
+						<p><a class="btn" href="#">Upload Resume</a></p>
+					</div>
+					<div class="row-fluid">
+						<div class="span12 job-seeker-advice">
+							<div class="span4 job-seeker-tip job-seeker-tip-1">
+							<h3>What does your resume look like?</h3>
+							<p>Your resume is your first impression, make it a good one. If you don't have a presentable resume you're not going to get an interview. Since we get paid only when you get hired, our goal is focused on making sure your resume is top quality before sending it off to our hiring clients.</p>
+							</div>
+							<div class="span4 job-seeker-tip job-seeker-tip-2">
+							<h3>Are you prepared for an interview?</h3>
+							<p>EnergeiaWorks' expert team will prepare you every step of the way. For most people, it's been years since their last interview. We will equip you with the knowledge to interview successfully. From basic interviewing questions to particular styles and questions to expect from our clients' hiring managers.</p>
+							</div>
+							<div class="span4 job-seeker-tip job-seeker-tip-3">
+							<h3>Should you accept the offer?</h3>
+							<p>Sometimes, yes. EnergeiaWorks will work with you to get the best deal that is available. From salary to bonus, to stock options, to benefits. Our team will work with you to make certain that you leave nothing on the table during the negotiation category. We know our clients and work directly with the hiring managers.</p>
+							</div>
+						</div><!-- /.job-seeker-advice-->
+					</div><!-- /.row-->
+				</div><!-- /.job-seekers-->
+			</div><!-- /.row-->
+			
+			<div class="row-fluid">
+				<div class="span12 section about" id="about">
+					<div class="span12">
+						<h2>ABOUT<br>ENERGEIAWORKS</h2>
+						<p class="intro-text">Sector Based Focus</p>
+						<p>EnergeiaWorks’ exclusive focus on clean energy markets gives us an unparalleled advantage in<br> locating the most highly specialized talent in any sector including:</p>
+					</div>
+					<div class="row-fluid">
+						<div class="span12 industry-sectors">
+							<div class="span4 industry-sector industry-sector-01">
+							<p>Our clients include some of the largest turbine manufacturers and wind energy companies in the world and we participate in the annual American Wind Energy Association confrences to find the industry’s best talent.</p>
+							</div>
+							<div class="span2 industry-icon industry-icon-01">
+							<p>Some filler text.</p>
+							</div>
+							<div class="span2 industry-icon industry-icon-02">
+							<p>Some filler text.</p>
+							</div>
+							<div class="span4 industry-sector industry-sector-02">
+							<p>Sustainability consulting firms and software developers rely on our expertise to source the world’s leading experts on climate change, greenhouse gas emissions, environmental regulations and green technologies.</p>
+							</div>
+						</div><!-- /.industry-sectors-->
+					</div><!-- /.row-->
+					<div class="row-fluid">
+						<div class="span12 industry-sectors">
+							<div class="span4 industry-sector industry-sector-03">
+							<p>We work with many national utility companies and the equipment vendors who engineer, construct and secure the latest electrical grids and micro-grids across the country.</p>
+							</div>
+							<div class="span2 industry-icon industry-icon-03">
+							<p>Some filler text.</p>
+							</div>
+							<div class="span2 industry-icon industry-icon-04">
+							<p>Some filler text.</p>
+							</div>
+							<div class="span4 industry-sector industry-sector-04">
+							<p>We help clients from small integrators and distributors of residential systems to the largest EPCs and manufacturers of utility-grade solar farms locate the talent they need to run the world’s most advanced PV systems.</p>
+							</div>
+						</div><!-- /.industry-sectors-->
+					</div><!-- /.row-->
+					
+					<div class="row-fluid">
+						<div class="span10 offset1 founder">
+							<div class="span2 offset1 founder-picture">
+							</div><!-- /.founder-picture-->
+							<div class="span8 founder-text">
+								<div class="founder-header">
+									<h4>William V. Liuzza | <span>Founder</span></h4>
+									<div id="founder-linkedin" class="social-media-icon">LinkedIn</div>
+									<div id="founder-twitter" class="social-media-icon">Twitter</div>
+									<div id="founder-facebook" class="social-media-icon">Facebook</div>
+								</div>
+								<p>With more than 15 years of recruiting experience, William V. Liuzza has a track record as one of the most successful and effective recruiters in the renewable energy sector.</p>
+								<p>William began his recruiting career 1994 while serving in the United States Marine Corps, and later joined J. Patrick &amp; Associates in New York as a managing partner (focused on the telecommunications and information security business sectors).</p>
+								<p>He founded EnergeiaWorks in 2010 to meet the growing demand for highly-specialized experts in the fast growing clean tech and renewable energy markets.</p>
+								<p>William holds a Bachelor of Science degree in forensic psychology from John Jay College, City University of New York.</p>
+							</div><!-- /.founder-text-->
+						</div><!-- /.founder-->
+					</div><!-- /.row-->					
+					
+					<div class="row-fluid">
+						<div class="span12 testimonials">
+							<div class="span3 testimonial testimonial-01">
+								<p>"William always makes sure each candidate’s skills fit with the role. He is the high performance recruiting partner you need if you want to find the top experts in the renewable energy arena."</p>
+								<p class="quote-source">Erik Plesset</p>
+								<a href="#">Bechtel Power Corporation</a>
+							</div>
+							<div class="span3 testimonial testimonial-02">
+								<p>"EnergeiaWorks has their finger on the pulse of the renewable energy and photovoltaic industry. They quickly helped me land a great position with the leader in my space."</p>
+								<p class="quote-source">Fred Reardon</p>
+								<a href="#">DPW Solar</a>
+							</div>
+							<div class="span3 testimonial testimonial-03">
+								<p>"EnergeiaWorks consistently provides us with excellent candidates, many of whom we have hired. If you want fast, effective results, I highly recommend working with them."</p>
+								<p class="quote-source">Joesph Scarci</p>
+								<a href="#">SolarBridge Technologies</a>
+							</div>
+							<div class="span3 testimonial testimonial-04">
+								<p>"William is a well-connected recruiter with an outstanding sense of which candidates will be successful for the role. Expertise in the recruitment of clean energy professionals should be left to EW."</p>
+								<p class="quote-source">Justin Traiteur</p>
+								<a href="#">Weather Central</a>
+							</div>
+						</div><!-- /.testimonals-->
+					</div><!-- /.row-->
+				</div><!-- /.about-->
+			</div><!-- /.row-->
+			
+			<div class="row-fluid">
+				<div class="span12 section contact">
+				
+					<h2>Contact Us</h2>
+					
+					<div class="row-fluid">
+					<div class="span3 offset2 contact-details" id="contact">
+						<p>Energeia Works, LLC.<br> 12 Desbrosses Street,<br> New York, NY, 10013</p>
+						<p>+1 (212) 961-6956</p>
+						<p><a href="mailto:info@energeiaworks.com">info@energeiaworks.com</a></p>
+						<div class="social-media-icons">
+							<div id="founder-linkedin" class="social-media-icon">LinkedIn</div>
+							<div id="founder-twitter" class="social-media-icon">Twitter</div>
+							<div id="founder-facebook" class="social-media-icon">Facebook</div>
+						</div><!-- /.social-media-icons-->
+					</div><!-- /contact-details-->
+					<div class="span6 offset1 contact-form">
+						<fieldset class="span6 contact-capture green">
+							<ol>
+								<li>
+									<label for="name">Full Name</label>
+									<input id="name" type="text" class="text-input" required>
+								</li>
+								<li>
+									<label for="company">Company Name</label>
+									<input id="company" type="text" class="text-input">
+								</li>
+							</ol>
+						</fieldset>
+					
+						<div class="span6  no-margin">
+							<fieldset class="contact-capture green">
+								<ol>
+									<li>
+										<label for="phone">Phone Number</label>
+										<input id="phone" type="tel" class="text-input" required>
+									</li>
+									<li>
+										<label for="email">Email Address</label>
+										<input id="email" type="email" class="text-input" required>
+									</li>
+								</ol>
+							</fieldset>
+						</div>
+						
+						<div class="row-fluid">
+							<div class="span12 contact-message red">
+								<ol>
+									<li>
+										<label for="message">Message</label>
+										<input id="message" type="message" class="span11 text-input" required>
+									</li>
+								</ol>
+							</div><!-- /.contact-message-->
+						</div><!-- /.row-->
+						<div class="row-fluid">
+							<div class="span11 contact-submit">
+							<ol>
+								<li><a class="btn" href="#">Submit</a></li>
+							</ol>
+							</div>
+						</div><!-- /.row-->
+						
+					</div><!-- /.contact-form-->
+				</div><!-- /.contact-->
+				</div>
+			</div><!-- /.row-->
+			
+			
+			
+			<hr>
 
             <footer>
-                <p>&copy; Company 2012</p>
+                <p>&copy; 2013 energeiaWorks</p>
             </footer>
 
         </div> <!-- /container -->
@@ -109,8 +396,10 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+		<script src="assets/js/bootstrap-scrollspy.js"></script>
+		<script src="js/jquery.anchor.js"></script>
 
-        <script>
+        <script>		
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
