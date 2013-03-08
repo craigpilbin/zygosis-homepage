@@ -56,34 +56,44 @@ body {
 
 /*---[WHAT WE DO]--------------------------------------*/
 
-.whatwedo				{ background: #015367; text-align: center; }
+.whatwedo				{ background: #000; /*#015367;*/ text-align: center; }
 .whatwedo h2				{ color: white; }
 .whatwedo .intro-text	{ color: white; font-size: 1.6em; }
 .whatwedo p				{ color: #ccc; }
 .work-categories 		{ margin-top: 2em; margin-bottom: 2em; }
 
 .work-categories ul 		{ margin: 0; list-style: none; }
-.work-categories li		{ display: inline-block; margin: 0.5%; text-align: center; }
+.work-categories li		{ display: inline-block; margin: 0.5%; text-align: left; }
 
-.work-category 			{ width: 18%; min-width: 200px; }
-.work-category h3 		{ color: white; text-align: center; }
-.work-category  > p		{ color: #ccc; font-size: 1em; text-align: justify; }
+.work-category 			{ width: 17%; min-width: 200px; vertical-align: top; }
+.work-category h3 		{ color: #047D99; text-align: center; letter-spacing: 1px; font-size: 2em; margin: 0 auto 10px 0; }
+.work-category  > p		{ color: #cccccc; text-align: justify; letter-spacing: -0.5px; padding: 10px; }
+.work-icons				{ text-align: center; }
+
+.work-icon 				{ width: 1px; height: 1px; padding: 60px; border: solid 5px #047D99; border-radius: 80px;
+						  -webkit-transform: scale(0.7);
+						     -moz-transform: scale(0.7);
+						      -ms-transform: scale(0.7);
+						       -o-transform: scale(0.7);
+						          transform: scale(0.7);
+						}
 
 
-.work-icon 				{ width: 65px; height: 65px; background: white; }
-
-.service				{ border: solid 1px green; }
-
-.work-category-1		{ }
-#work-icon-html5		{ background: url("../img/icon-html5.png") white no-repeat top center; }
-#work-icon-css3			{ background: url("../img/icon-css3.png") no-repeat top center; }
-#work-icon-jquery		{ background: url("../img/icon-jquery.png") no-repeat top center; }
-
-
-.work-category-2	{ }
-.work-category-3	{ }
-.work-category-4	{ }
-.work-category-5	{ }
+#work-icon-html5		{ background: url("../img/icon-html5.png") no-repeat center center; }
+#work-icon-css3			{ background: url("../img/icon-css3.png") no-repeat center center; }
+#work-icon-jquery		{ background: url("../img/icon-jquery.png") no-repeat center center; }
+#work-icon-wordpress	{ background: url("../img/icon-wordpress.png") no-repeat center center; }
+#work-icon-drupal		{ background: url("../img/icon-drupal.png") no-repeat center center; }
+#work-icon-joomla		{ background: url("../img/icon-joomla.png") no-repeat center center; }
+#work-icon-php			{ background: url("../img/icon-php.png") no-repeat center center; }
+#work-icon-javascript	{ background: url("../img/icon-javascript.png") no-repeat center center; }
+#work-icon-mysql		{ background: url("../img/icon-mysql.png") no-repeat center center; }
+#work-icon-facebook		{ background: url("../img/icon-facebook.png") no-repeat center center; }
+#work-icon-twitter		{ background: url("../img/icon-twitter.png") no-repeat center center; }
+#work-icon-linkedin		{ background: url("../img/icon-linkedin.png") no-repeat center center; }
+#work-icon-desktop		{ background: url("../img/icon-desktop.png") no-repeat center center; }
+#work-icon-tablet		{ background: url("../img/icon-tablet.png") no-repeat center center; }
+#work-icon-mobile		{ background: url("../img/icon-mobile.png") no-repeat center center; }
 
 
 
