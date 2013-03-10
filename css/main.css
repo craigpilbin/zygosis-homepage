@@ -34,30 +34,37 @@ body {
 	margin-left: 30px;
 }
 .navbar .nav a {
-	line-height: 40px;
+	line-height: 50px; /*change nav-bar height*/
 	text-transform: uppercase;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35), 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
 	color: #04819e;
 }
+.navbar .graphic {
+	background-image: url("../img/logo-nav.png") no-repeat center center;
+	width: 145px;
+	display: block;
+	/*background: rgba(255,0,0,0.25);*/
 
+}
 /*---[HERO UNIT]--------------------------------------*/
 
 .hero-unit {
-	height: 300px;
+	height: 450px;
 	max-width: 1500px;
 	background: gray;
-	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-top: 0px;
 	border-radius: 0px;
 }
 
 /*---[WHAT WE DO]--------------------------------------*/
 
 .whatwedo				{ background: #000; /*#015367;*/ text-align: center; }
-.whatwedo h2				{ color: white; }
+.whatwedo h2				{ width: 33.3%; color: white; background: #015367; padding: 20px; margin: 0 auto; text-transform: uppercase;
+						  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35), 0 1px 0 rgba(255, 255, 255, 0.35); }
 .whatwedo .intro-text	{ color: white; font-size: 1.6em; }
 .whatwedo p				{ color: #ccc; }
 .work-categories 		{ margin-top: 2em; margin-bottom: 2em; }
@@ -71,29 +78,24 @@ body {
 .work-icons				{ text-align: center; }
 
 .work-icon 				{ width: 1px; height: 1px; padding: 60px; border: solid 5px #047D99; border-radius: 80px;
-						  -webkit-transform: scale(0.7);
-						     -moz-transform: scale(0.7);
-						      -ms-transform: scale(0.7);
-						       -o-transform: scale(0.7);
-						          transform: scale(0.7);
-						}
+						  -webkit-transform: scale(0.7); -moz-transform: scale(0.7); -ms-transform: scale(0.7); -o-transform: scale(0.7); transform: scale(0.7); }
 
 
-#work-icon-html5		{ background: url("../img/icon-html5.png") no-repeat center center; }
-#work-icon-css3			{ background: url("../img/icon-css3.png") no-repeat center center; }
-#work-icon-jquery		{ background: url("../img/icon-jquery.png") no-repeat center center; }
-#work-icon-wordpress	{ background: url("../img/icon-wordpress.png") no-repeat center center; }
-#work-icon-drupal		{ background: url("../img/icon-drupal.png") no-repeat center center; }
-#work-icon-joomla		{ background: url("../img/icon-joomla.png") no-repeat center center; }
-#work-icon-php			{ background: url("../img/icon-php.png") no-repeat center center; }
+#work-icon-html5		{ background: url("../img/icon-html5.png") 		no-repeat center center; }
+#work-icon-css3			{ background: url("../img/icon-css3.png") 		no-repeat center center; }
+#work-icon-jquery		{ background: url("../img/icon-jquery.png") 	no-repeat center center; }
+#work-icon-wordpress	{ background: url("../img/icon-wordpress.png") 	no-repeat center center; }
+#work-icon-drupal		{ background: url("../img/icon-drupal.png") 	no-repeat center center; }
+#work-icon-joomla		{ background: url("../img/icon-joomla.png") 	no-repeat center center; }
+#work-icon-php			{ background: url("../img/icon-php.png") 		no-repeat center center; }
 #work-icon-javascript	{ background: url("../img/icon-javascript.png") no-repeat center center; }
-#work-icon-mysql		{ background: url("../img/icon-mysql.png") no-repeat center center; }
-#work-icon-facebook		{ background: url("../img/icon-facebook.png") no-repeat center center; }
-#work-icon-twitter		{ background: url("../img/icon-twitter.png") no-repeat center center; }
-#work-icon-linkedin		{ background: url("../img/icon-linkedin.png") no-repeat center center; }
-#work-icon-desktop		{ background: url("../img/icon-desktop.png") no-repeat center center; }
-#work-icon-tablet		{ background: url("../img/icon-tablet.png") no-repeat center center; }
-#work-icon-mobile		{ background: url("../img/icon-mobile.png") no-repeat center center; }
+#work-icon-mysql		{ background: url("../img/icon-mysql.png") 		no-repeat center center; }
+#work-icon-facebook		{ background: url("../img/icon-facebook.png") 	no-repeat center center; }
+#work-icon-twitter		{ background: url("../img/icon-twitter.png") 	no-repeat center center; }
+#work-icon-linkedin		{ background: url("../img/icon-linkedin.png") 	no-repeat center center; }
+#work-icon-desktop		{ background: url("../img/icon-desktop.png") 	no-repeat center center; }
+#work-icon-tablet		{ background: url("../img/icon-tablet.png") 	no-repeat center center; }
+#work-icon-mobile		{ background: url("../img/icon-mobile.png") 	no-repeat center center; }
 
 
 
